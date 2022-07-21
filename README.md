@@ -24,6 +24,14 @@
 ### Objetivos Específicos
 
 * Viabilizar uma aplicação sustentada por uma MEC que permita, em tempo real, que o operador através da própria descrição inserida no evento, conheça o melhor rótulo a se classificar o evento.
-* Permitir que classificações locais do algoritmo, possam ser replicadas para a núvem privada e ou para núvem pública (com criptografia) para enriquecimento da tarefa de treinamento da aplicação em conjunto com outras instâncias em operação em outras plataformas.
-* Certificar de qual método é o mais recomendado para classificações textuais considerando uma computação de borda móvel com recursos limitados de processamento e armazenamento
-* 
+* Permitir que classificações locais do algoritmo, possam ser replicadas para a núvem privada e ou para núvem pública (com criptografia) para enriquecimento da tarefa de treinamento da aplicação em conjunto com outras instâncias do sistema de recomendação em operação em outras plataformas.
+* Certificar de qual método é o mais recomendado para inferencias e classificações textuais considerando uma computação de borda móvel com recursos limitados de processamento e armazenamento.
+* Capacidade de inferir localmente no dispostivo móvel (pre-trained data) a severidade do evento sendo criado em caso de queda de conexão ou falha de comunicação com a MEC.
+
+
+### Principais Gaps da Literatura
+
+* Tausif Diwan1 & Jitendra V. Tembhurne1 (Sentiment analysis: a convolutional neural networks perspective)
+** CNN foi utilizada principalmente como extratora e não como classificadora.
+** Acurácia do modelo fica comprometida ao desconsiderar o sentido léxico de palavras.
+
