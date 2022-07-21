@@ -33,7 +33,9 @@
 
 * H. Sankar1 V. Subramaniyaswamy1 V. Vijayakumar2 Sangaiah Arun Kumar3 R. Logesh1 A. Umamakeswari1 (Intelligent sentiment analysis approach using edge
 computing-based deep learning technique, 2018)
-  * 
+  * Uso de aspectos da linguagem não foi considerado.
+  * Somente considerou CNN
+  * Somente utilizou avaliações de filmes nos algoritmos, limitando o alcance da aplicação
 
 * Tausif Diwan1 & Jitendra V. Tembhurne1 (Sentiment analysis: a convolutional neural networks perspective, 2021)
   * CNN foi utilizada principalmente como extratora de caracteristicas e não como classificadora.
@@ -56,3 +58,8 @@ computing-based deep learning technique, 2018)
   * Transferencia entre domínios diferentes implica baixa acurácia. (ex, dados de avaliações de hotel sendo usados para avaliar restaurantes) No entanto, sub-domínios podem ser avaliados. (Dados de operações on-shore sendo aproveitados para operações off-shore)
   * Aprendizado multimodal: textos, com videos e ou imagens para enriquecimento da recomendação. Os trabalhos avaliados ignoram a prática.
   * Sumarização de aspectos centrada em entidades pode ser especialmente interessante no idioma portugues devido a depencia e interpretação baseada no contexto.
+  
+* Lele Ma Shanhe Yi Qun Li (Efficient Service Handoff Across Edge Servers via Docker Container Migration, 2017)
+  * Não considera o uso de MEC
+  * Segurança na transferência de containers não foi considerada
+  * Somente considerou WiFi para migração e transferência dos containers
