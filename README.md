@@ -32,6 +32,6 @@
 ### Principais Gaps da Literatura
 
 * Tausif Diwan1 & Jitendra V. Tembhurne1 (Sentiment analysis: a convolutional neural networks perspective)
-> CNN foi utilizada principalmente como extratora e não como classificadora.
-> Acurácia do modelo fica comprometida ao desconsiderar o sentido léxico de palavras.
+  * CNN foi utilizada principalmente como extratora e não como classificadora.
+  * Acurácia do modelo fica comprometida ao desconsiderar o sentido léxico de palavras.
 
