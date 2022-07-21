@@ -31,7 +31,28 @@
 
 ### Principais Gaps da Literatura
 
-* Tausif Diwan1 & Jitendra V. Tembhurne1 (Sentiment analysis: a convolutional neural networks perspective)
-  * CNN foi utilizada principalmente como extratora e não como classificadora.
-  * Acurácia do modelo fica comprometida ao desconsiderar o sentido léxico de palavras.
+* H. Sankar1 V. Subramaniyaswamy1 V. Vijayakumar2 Sangaiah Arun Kumar3 R. Logesh1 A. Umamakeswari1 (Intelligent sentiment analysis approach using edge
+computing-based deep learning technique, 2018)
+  * 
 
+* Tausif Diwan1 & Jitendra V. Tembhurne1 (Sentiment analysis: a convolutional neural networks perspective, 2021)
+  * CNN foi utilizada principalmente como extratora de caracteristicas e não como classificadora.
+  * Acurácia do modelo fica comprometida ao desconsiderar o sentido léxico de palavras.
+  * Transfêrencia de dados pré-treinados entre domínios diferentes
+
+* Ilir Murturi, Cosmin Avasalcai, Christos Tsigkanos and Schahram Dustdar (Edge-to-Edge Resource Discovery using Metadata Replication, 2019)
+  * Número de nós necessários para formar vizinhos em uma rede de borda e comprovar a replicação
+  * Número de requisições concorrentes para replicação
+  * Influencia do tamanho do meta-dado a ser replicado ficou em aberto
+  * Roteamento entre nós foi ignorado
+
+* Dafuallah Esameldien Dafaallah, Ahmad Sobri Hashim (Awareness at Oil and Gas Platforms Using Machine Learning, 2020)
+  * Baixa acurácia em todos os modelos testados
+  * Não considerou aspectos da linguagem
+  * Não considerou CNN
+  * Dados sobre O&G não foram utilizados, não comprovando aderência ao negócio proposto
+
+* Ambreen Nazir , Yuan Rao, Lianwei Wu , and Ling Sun (Issues and Challenges of Aspect-based Sentiment Analysis: A Comprehensive Survey, 2022)
+  * Transferencia entre domínios diferentes implica baixa acurácia. (ex, dados de avaliações de hotel sendo usados para avaliar restaurantes) No entanto, sub-domínios podem ser avaliados. (Dados de operações on-shore sendo aproveitados para operações off-shore)
+  * Aprendizado multimodal: textos, com videos e ou imagens para enriquecimento da recomendação. Os trabalhos avaliados ignoram a prática.
+  * Sumarização de aspectos centrada em entidades pode ser especialmente interessante no idioma portugues devido a depencia e interpretação baseada no contexto.
